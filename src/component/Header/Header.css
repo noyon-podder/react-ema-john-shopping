@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.navbar {
+  background-color: #1c2b35;
+
+  width: 100%;
+}
+.navbar ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 15px;
+  text-transform: capitalize;
+}
